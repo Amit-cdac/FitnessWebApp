@@ -1,0 +1,80 @@
+.content form{
+    margin: 20px 27px;
+}
+
+.content form .field{
+    width: 100%;
+    height: 45px;
+    display: flex;
+}
+
+form .field input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(9, 8, 8);
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 18px;
+    outline: none;
+}
+
+
+form .error-text{
+    position: relative;
+    margin:15px 0 -5px 0;
+    background: #e74c3c;
+    color: #fceae8;
+    font-size: 18px;
+    padding: 8px;
+    border-radius:5px ;
+    display: none;
+}
+    
+
+form .error-text::before{
+    position: absolute;
+    content: '';
+    height: 15px;
+    width: 15px;
+    background: #e74c3c;
+    right: 20px;
+    top: -7px;
+    transform: rotate(45deg);
+}
+
+#bt{
+    display: none;
+}
+
+form .error-text-phone{
+    position: relative;
+    margin:15px 0 -5px 0;
+    background: #e74c3c;
+    color: #fceae8;
+    font-size: 18px;
+    padding: 8px;
+    border-radius:5px ;
+    display: none;
+}
+    
+
+form .error-text-phone::before{
+    position: absolute;
+    content: '';
+    height: 15px;
+    width: 15px;
+    background: #e74c3c;
+    right: 20px;
+    top: -7px;
+    transform: rotate(45deg);
+}
+
+select{
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 18px;
+    outline: none;
+}
